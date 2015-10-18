@@ -9,8 +9,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
+
 
 public class inicioLogin extends AppCompatActivity {
+    private Button registro;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +36,12 @@ public class inicioLogin extends AppCompatActivity {
         });
     }
 
+
+    public void menuEmpleador(){
+
+    }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_inicio_login, menu);
@@ -39,9 +50,7 @@ public class inicioLogin extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         int id = item.getItemId();
-
 
         if (id == R.id.action_settings) {
             return true;
