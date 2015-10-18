@@ -23,6 +23,11 @@
             android:label="@string/title_activity_principal"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".menu_empleador"
+            android:label="@string/title_activity_menu_empleador"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
